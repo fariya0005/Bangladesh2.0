@@ -102,6 +102,7 @@ h1{
     margin-left: 50px;
     margin-bottom: 50px;
     margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 .card1{
@@ -111,5 +112,60 @@ h1{
 }
 
 
+.card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card3{
+    border-radius: 3%;
+    border-style:none;
+    background-color: #FFFFFF;
+    height: 270px;
+}
 
+.btn-3{
+    background-color: #5490F5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+}
 
+.btn-3:hover{
+    background-color: #6e7c9b;
+    color: rgb(19, 31, 43);
+}
+.btn-4{
+    background-color:#09A15C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+    
+}
+.btn-4:hover{
+    background-color: #a0cab2;
+    color: rgb(3, 28, 13);
+}
+.btn-5{
+    background-color: #FFC239;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+  
+}
+.btn-5:hover{
+    background-color: #f5ed54;
+    color: rgb(16, 17, 3);
+}
